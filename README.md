@@ -20,8 +20,9 @@ Releases are located <a href='https://github.com/Parinz/Tkinter-Password-Manager
 <hr>
 
 # How to use?
-<br/>
+
 ## Setup
+
 1. It will take time to launch have **Patience**. Upon first launch, you will see this window. Set your Master Password, this is used for acessing all passwords.
 
 ![Setup](https://github.com/Parinz/Encrypted-Tkinter-Password-Manager/blob/master/Setup.png)
