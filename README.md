@@ -14,3 +14,18 @@ I respect your privacy thus this program is completly offline as I've told you. 
 It supports MacOS, Windows, and Linux. I only have windows and mac machines so you have to compile it yourself or run the file as .py instead if you're on linux.
 
 Releases are located <a href='https://github.com/Parinz/Tkinter-Password-Manager/releases/tag/1.0'> ***HERE*** </a>
+
+<br/>
+<br/>
+<hr>
+
+# How to use?
+<br/>
+## Setup
+1. It will take time to launch have **Patience**. Upon first launch, you will see this window. Set your Master Password, this is used for acessing all passwords.
+![Setup](https://github.com/Parinz/Encrypted-Tkinter-Password-Manager/blob/master/Setup.png)
+
+2. The main window will popup, you're done!
+![Main Window](https://github.com/Parinz/Encrypted-Tkinter-Password-Manager/blob/master/MainScreen.png)
+
+3. Now you can either choose to generate a new password and save it using the generate function. You could also use the ***Password Notebook*** button to add existing passwords.
