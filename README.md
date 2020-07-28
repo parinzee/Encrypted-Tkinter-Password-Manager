@@ -31,4 +31,8 @@ Releases are located <a href='https://github.com/Parinz/Tkinter-Password-Manager
 
 ![Main Window](https://github.com/Parinz/Encrypted-Tkinter-Password-Manager/blob/master/MainScreen.png)
 
-3. Now you can either choose to generate a new password and save it using the generate function. You could also use the ***Password Notebook*** button to add existing passwords.
+3. Now you can either choose to ***generate a new password*** and save it using the generate function. You could also use the ***Password Notebook*** button to add existing passwords.
+
+## Adding Existing Passwords
+
+1. To add existing password click on the **Password Notebook Button.**
