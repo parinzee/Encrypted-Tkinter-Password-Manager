@@ -38,3 +38,15 @@ Releases are located <a href='https://github.com/Parinz/Tkinter-Password-Manager
 1. To add existing password click on the **Password Notebook Button.**
 
 ![Adding Existing Passwords](https://github.com/Parinz/Encrypted-Tkinter-Password-Manager/blob/master/Add%20Existing%20Passwords.png)
+
+2. A window will pop-up asking you to enter your Master Password. Enter it, then click Authenticate.
+
+![Authenticate](https://github.com/Parinz/Encrypted-Tkinter-Password-Manager/blob/master/Authenticate.png)
+
+3. If this is the first time you've open your Password Notebook. It will be empty just rows on top.
+
+![Password Notebook](https://github.com/Parinz/Encrypted-Tkinter-Password-Manager/blob/master/Password_Notebook.png)
+
+4. To add your password, click on the "Add Password" Button.
+
+![Adding Password Button](https://github.com/Parinz/Encrypted-Tkinter-Password-Manager/blob/master/Password_Add.png)
