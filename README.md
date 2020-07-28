@@ -50,3 +50,17 @@ Releases are located <a href='https://github.com/Parinz/Tkinter-Password-Manager
 4. To add your password, click on the "Add Password" Button.
 
 ![Adding Password Button](https://github.com/Parinz/Encrypted-Tkinter-Password-Manager/blob/master/Password_Add.png)
+
+5. A window will pop up with, a blank space for 
+
+- App Name
+
+- Username/Email
+
+- Your Password
+
+![Add Password](https://github.com/Parinz/Encrypted-Tkinter-Password-Manager/blob/master/Add_Password.png)
+
+6. Press Add Password, then the every window will reload and you will see your password pop up.
+
+![Added Result](https://github.com/Parinz/Encrypted-Tkinter-Password-Manager/blob/master/Result_Add.png)
