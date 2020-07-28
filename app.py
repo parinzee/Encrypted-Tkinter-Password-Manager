@@ -4,6 +4,7 @@ from tkinter import *
 import random
 from tkinter import messagebox
 import os
+import webbrowser
 
 
 # Master Password
@@ -40,6 +41,12 @@ length.grid(row=0, column=0)
 
 length_entry = Entry(secondary_frame)
 length_entry.grid(row=0, column=1)
+
+
+# This function is for going to help
+def open_help():
+    webbrowser.open(
+        'https://github.com/Parinz/Encrypted-Tkinter-Password-Manager#Setup', new=2)
 
 
 # Creating a function for encrypting and decrypting the .db file.
@@ -130,7 +137,11 @@ with open('firstrun.txt', 'a+') as f:
 
         # Entry field for master password
         masterpassword = Entry(labelframe, width=25)
-        masterpassword.pack()
+        masterpassword.pack(padx=10, pady=0)
+
+        # Help Button
+        help_buttn = Button(labelframe, text="Help?", command=open_help)
+        help_buttn.pack(padx=10, pady=20)
 
         # Submit Button
         AddButton = Button(
@@ -165,9 +176,9 @@ def Pw_Notebook():
             db.commit()
             db.close()
             encrypt_db()
-            alert('Information', 'Password Saved to Password Notebook')
             a_pass.destroy()
             Pw_Notebook_reload()
+            alert('Information', 'Password Saved to Password Notebook')
 
         a_pass = Toplevel()
         a_pass.title('Add Password')
@@ -213,9 +224,9 @@ def Pw_Notebook():
             db.commit()
             db.close()
             encrypt_db()
-            alert('Information', 'Password Deleted')
             a_pass.destroy()
             Pw_Notebook_reload()
+            alert('Information', 'Password Deleted')
 
         a_pass = Toplevel()
         a_pass.title('Delete Password')
